@@ -1,0 +1,6 @@
+[Unit]
+Description=Axiom Update Checker Service
+
+[Service]
+Type=oneshot
+ExecStart=%h/user_scripts/update_axiom/update_checker/update_checker.sh --num

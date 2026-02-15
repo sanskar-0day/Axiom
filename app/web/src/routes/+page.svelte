@@ -45,7 +45,7 @@
   <section class="hero">
     <p class="hero-kicker">Work in Progress</p>
     <h1 class="hero-title">Axiom OS</h1>
-    <p class="hero-subtitle">The World's Best Agentic Declarative Operating System</p>
+    <p class="hero-subtitle">The World's Best Agentic Declarative Operating System. Now with a fully integrated, custom Hyprland Desktop Suite.</p>
   </section>
 
   <section class="install-section">
