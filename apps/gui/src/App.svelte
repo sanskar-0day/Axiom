@@ -1,15 +1,53 @@
 <script>
-  let title = "Axiom OS";
+  import { onMount } from 'svelte'
+  import { connect, on } from '@axiom/ws-client'
+  import { connected } from '@axiom/ws-client/src/stores'
+  import { currentRoute } from './lib/router'
+  import Sidebar from './components/Sidebar.svelte'
+  import StatusBar from './components/StatusBar.svelte'
+  import PackagesView from './views/PackagesView.svelte'
+  import OptionsView from './views/OptionsView.svelte'
+  import GraphView from './views/GraphView.svelte'
+  import TerminalView from './views/TerminalView.svelte'
+  import SettingsView from './views/SettingsView.svelte'
+
+  onMount(() => {
+    connect()
+
+    on('connected', () => {
+      connected.set(true)
+    })
+
+    on('disconnected', () => {
+      connected.set(false)
+    })
+  })
 </script>
 
-<main style="display: grid; place-items: center; height: 100vh; background: linear-gradient(45deg, #0f0f0f, #1a1a1a); color: white; font-family: 'Inter', sans-serif;">
-  <h1 style="font-size: 3rem; letter-spacing: -1px; opacity: 0.9;">{title}</h1>
-  <p style="color: #666;">The declarative future.</p>
+<Sidebar />
+
+<main class="main-content">
+  {#if $currentRoute === 'packages'}
+    <PackagesView />
+  {:else if $currentRoute === 'options'}
+    <OptionsView />
+  {:else if $currentRoute === 'graph'}
+    <GraphView />
+  {:else if $currentRoute === 'terminal'}
+    <TerminalView />
+  {:else if $currentRoute === 'settings'}
+    <SettingsView />
+  {/if}
 </main>
 
+<StatusBar />
+
 <style>
-  :global(body) {
-    margin: 0;
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
+    margin-bottom: var(--statusbar-height);
   }
 </style>

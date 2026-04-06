@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+.svelte-kit/
+*.swp
+*.swo
+*~
+.DS_Store
+result
+result-*
+.direnv/
+nimcache/
+nimblecache/
+core/engine/src/main
+core/bridge/src/main

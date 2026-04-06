@@ -1,0 +1,16 @@
+{
+  "name": "axiom-os",
+  "private": true,
+  "scripts": {
+    "dev:gui": "pnpm --filter @axiom/gui dev",
+    "dev:web": "pnpm --filter @axiom/web dev",
+    "dev:setup": "pnpm --filter @axiom/setup dev",
+    "build": "pnpm -r build",
+    "build:gui": "pnpm --filter @axiom/gui build",
+    "build:web": "pnpm --filter @axiom/web build"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
