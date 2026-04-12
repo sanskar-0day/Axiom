@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Firefox Data Migration Utility for browser directory, so data is encrypted
 #
 # ==============================================================================

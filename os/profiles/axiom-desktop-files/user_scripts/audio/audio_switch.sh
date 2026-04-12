@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # -----------------------------------------------------------------------------
 # OPTIMIZED AUDIO OUTPUT SWITCHER FOR HYPRLAND (MAKO OSD EDITION)
 # Dependencies: hyprland, pulseaudio-utils (pactl), jq, libnotify (notify-send)

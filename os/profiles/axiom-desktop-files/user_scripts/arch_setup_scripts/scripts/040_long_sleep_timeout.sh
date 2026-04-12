@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # To set longer screen timeout during the setup process to prevent the device from going into sleep.
 #===============================================================================
 # HYPRIDLE CONFIGURATION APPLICATOR

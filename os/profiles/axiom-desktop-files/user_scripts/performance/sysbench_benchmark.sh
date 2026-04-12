@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # =============================================================================
 # SYSBENCH ULTIMATE DASHBOARD (v14.1 - Updated Memory Logic)

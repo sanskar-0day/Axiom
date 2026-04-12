@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # Name: transcribe_voice_parakeet
 # Version: 2.0 (Bug-fixed & Optimized)

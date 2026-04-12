@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # ------------------------------------------------------------------------------
 # 🛡️ ARCH LINUX / HYPRLAND ROFI EMOJI SELECTOR
 # Optimized for: Bash 5+, Wayland (wl-copy), and Custom Rofi Configs

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Cache the current wallpaper path
 WALLPAPER=$(awww query | grep -oP 'image: \K.*' | head -1)

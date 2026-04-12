@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # ------------------------------------------------------------------------------
 # 🧮 ROFI CALCULATOR (QALCULATE)
 # Optimized for: Arch Linux / Hyprland / Wayland

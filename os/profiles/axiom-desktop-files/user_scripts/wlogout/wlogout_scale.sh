@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # ──────────────────────────────────────────────────────────────────────────────
 #  wlogout-launch - Dynamic Scaling & Theming Wrapper for Hyprland
 #  Architected for Mass Deployment | Enterprise Grade + Sniper Verification

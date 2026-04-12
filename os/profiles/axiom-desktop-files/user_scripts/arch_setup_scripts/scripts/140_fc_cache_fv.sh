@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Refreshes font cache and verifies font aliasing for Arch/Hyprland environment.
 
 # -----------------------------------------------------------------------------

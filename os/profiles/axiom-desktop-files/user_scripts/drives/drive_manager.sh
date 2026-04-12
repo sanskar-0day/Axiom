@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # ==============================================================================
 #  UNIVERSAL DRIVE MANAGER (FSTAB NATIVE) - v3 (Master)

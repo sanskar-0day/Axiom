@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # Name: transcribe_voice
 # Architecture: Arch Linux / Hyprland / uv

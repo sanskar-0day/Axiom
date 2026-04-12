@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # hypridle reverting timeout to default
 #===============================================================================
 # HYPRIDLE CONFIGURATION APPLICATOR

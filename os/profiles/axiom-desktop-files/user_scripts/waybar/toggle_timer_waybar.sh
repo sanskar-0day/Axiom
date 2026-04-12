@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # waybar_timer.sh - Run Waybar for a specified duration with guaranteed cleanup
 #

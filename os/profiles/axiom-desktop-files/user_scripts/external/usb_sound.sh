@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # USB Sound Notification Script
 # Plays audio feedback when USB devices are connected/disconnected

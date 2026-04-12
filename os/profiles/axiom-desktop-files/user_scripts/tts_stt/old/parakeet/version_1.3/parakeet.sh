@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # Name: transcribe_voice_parakeet
 # Version: 1.3 (Inference Mode & Robust Arg Parsing)

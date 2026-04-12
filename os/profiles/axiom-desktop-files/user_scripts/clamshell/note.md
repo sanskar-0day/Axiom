@@ -111,7 +111,7 @@ powerprofilesctl get
 
 **2. Clamshell Mode Script** (`~/scripts/clamshell-mode.sh`):
 ```bash
-#!/bin/bash
+#!/usr/bin/env bash
 INTERNAL="eDP-1"  # ⚠️ CHANGE THIS to your internal monitor name
 EXTERNAL="DP-1"   # ⚠️ CHANGE THIS to your external monitor name
 

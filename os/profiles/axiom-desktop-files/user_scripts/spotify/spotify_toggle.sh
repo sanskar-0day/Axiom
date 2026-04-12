@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Check if spotify process is running
 if pgrep -x "spotify" >/dev/null; then
