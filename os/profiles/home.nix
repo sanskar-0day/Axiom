@@ -33,6 +33,8 @@
     swww
     hyprpicker
     kanata
+    uwsm
+    satty
   ];
 
   home.file = {

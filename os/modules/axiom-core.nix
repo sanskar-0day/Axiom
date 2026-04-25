@@ -53,6 +53,8 @@ in
       cava
       pavucontrol
       networkmanagerapplet
+      uwsm
+      satty
     ];
 
     system.userActivationScripts.axiomSetup.text = ''
