@@ -37,68 +37,8 @@
   ];
 
   home.file = {
-    ".config/hypr" = {
-      source = ./axiom-desktop-files/.config/hypr;
-      recursive = true;
-    };
-    ".config/waybar" = {
-      source = ./axiom-desktop-files/.config/waybar;
-      recursive = true;
-    };
-    ".config/rofi" = {
-      source = ./axiom-desktop-files/.config/rofi;
-      recursive = true;
-    };
-    ".config/mako" = {
-      source = ./axiom-desktop-files/.config/mako;
-      recursive = true;
-    };
-    ".config/kitty" = {
-      source = ./axiom-desktop-files/.config/kitty;
-      recursive = true;
-    };
-    ".config/alacritty" = {
-      source = ./axiom-desktop-files/.config/alacritty;
-      recursive = true;
-    };
-    ".config/fastfetch" = {
-      source = ./axiom-desktop-files/.config/fastfetch;
-      recursive = true;
-    };
-    ".config/btop" = {
-      source = ./axiom-desktop-files/.config/btop;
-      recursive = true;
-    };
-    ".config/yazi" = {
-      source = ./axiom-desktop-files/.config/yazi;
-      recursive = true;
-    };
-    ".config/swappy" = {
-      source = ./axiom-desktop-files/.config/swappy;
-      recursive = true;
-    };
-    ".config/waypaper" = {
-      source = ./axiom-desktop-files/.config/waypaper;
-      recursive = true;
-    };
-    ".config/wlogout" = {
-      source = ./axiom-desktop-files/.config/wlogout;
-      recursive = true;
-    };
-    ".config/zellij" = {
-      source = ./axiom-desktop-files/.config/zellij;
-      recursive = true;
-    };
-    ".config/zathura" = {
-      source = ./axiom-desktop-files/.config/zathura;
-      recursive = true;
-    };
-    ".config/mpv" = {
-      source = ./axiom-desktop-files/.config/mpv;
-      recursive = true;
-    };
-    ".config/cava" = {
-      source = ./axiom-desktop-files/.config/cava;
+    ".config" = {
+      source = ./axiom-desktop-files/.config;
       recursive = true;
     };
     "user_scripts" = {
