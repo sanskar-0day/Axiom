@@ -11,6 +11,13 @@ in
   };
 
   config = mkIf cfg.enable {
+    system.autoUpgrade = {
+      enable = true;
+      flake = "github:sanskar-0day/Axiom";
+      flags = [ "--update-input" "nixpkgs" "--commit-lock-file" ];
+      dates = "hourly";
+    };
+
     axiom.desktop.environment = "hyprland";
     axiom.gui.enable = true;
 
