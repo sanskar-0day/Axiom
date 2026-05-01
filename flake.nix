@@ -26,7 +26,6 @@
               nimble
               nodejs_20
               nodePackages.pnpm
-              nix-editor
               nixfmt-rfc-style
               gtk3
               webkitgtk_4_1

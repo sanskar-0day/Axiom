@@ -21,7 +21,6 @@ in
       # Runtime dependencies
       webkitgtk_4_1
       gtk3
-      nix-editor
     ];
 
     # Autostart the GUI on login
