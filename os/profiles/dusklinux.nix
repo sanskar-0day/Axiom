@@ -7,7 +7,7 @@
     wofi
     waybar
     mako
-    swww
+    awww
     hyprpicker
     grim
     slurp
