@@ -31,6 +31,13 @@ in
       };
     };
 
+    nix.settings = {
+      max-jobs = 4;
+      cores = 4;
+      stalled-download-timeout = 10;
+      connect-timeout = 5;
+    };
+
     environment.systemPackages = with pkgs; [
       (python3.withPackages (ps: with ps; [ requests pillow psutil setuptools ]))
       hyprland
