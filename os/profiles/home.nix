@@ -6,9 +6,6 @@
 
   home.stateVersion = "23.11"; # Please read the release notes before changing.
 
-  # Automatically backup existing files to prevent collision errors and allow easy reversion
-  home.backupFileExtension = "backup-dusky";
-
   home.packages = with pkgs; [
     (python3.withPackages (ps: with ps; [ requests pillow psutil setuptools ]))
     hyprland
