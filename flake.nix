@@ -29,7 +29,7 @@
               nix-editor
               nixfmt-rfc-style
               gtk3
-              webkitgtk
+              webkitgtk_4_1
               pkg-config
               git
               jq
