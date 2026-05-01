@@ -69,19 +69,5 @@ in
       uwsm
       satty
     ];
-
-    system.userActivationScripts.axiomSetup.text = ''
-      echo "Setting up Axiom OS configurations..."
-      if [ ! -d "$HOME/.config/hypr" ]; then
-        mkdir -p "$HOME/.config"
-        cp -rT ${../profiles/axiom-desktop-files/.config} "$HOME/.config/"
-        chmod -R u+rw "$HOME/.config"
-      fi
-
-      if [ ! -d "$HOME/user_scripts" ]; then
-        cp -rT ${../profiles/axiom-desktop-files/user_scripts} "$HOME/user_scripts"
-        chmod -R u+rwx "$HOME/user_scripts"
-      fi
-    '';
   };
 }
