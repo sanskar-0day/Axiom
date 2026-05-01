@@ -35,7 +35,6 @@ in
       (python3.withPackages (ps: with ps; [ requests pillow psutil setuptools ]))
       hyprland
       waybar
-      wofi
       rofi
       mako
       kitty

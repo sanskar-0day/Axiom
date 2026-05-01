@@ -10,7 +10,6 @@
     (python3.withPackages (ps: with ps; [ requests pillow psutil setuptools ]))
     hyprland
     waybar
-    wofi
     rofi
     mako
     kitty
@@ -30,7 +29,7 @@
     networkmanagerapplet
     grim
     slurp
-    swww
+    awww
     hyprpicker
     kanata
     uwsm
@@ -44,10 +43,6 @@
     };
     ".config/waybar" = {
       source = ./axiom-desktop-files/.config/waybar;
-      recursive = true;
-    };
-    ".config/wofi" = {
-      source = ./axiom-desktop-files/.config/wofi;
       recursive = true;
     };
     ".config/rofi" = {
