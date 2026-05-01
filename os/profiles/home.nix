@@ -11,7 +11,7 @@
     hyprland
     waybar
     wofi
-    rofi-wayland
+    rofi
     mako
     kitty
     alacritty
