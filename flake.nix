@@ -69,8 +69,27 @@
         modules = [
           ./os/modules/default.nix
           ./os/profiles/dusklinux.nix
+          home-manager.nixosModules.home-manager
           {
             axiom.gui.enable = true;
+            axiom.enable = true;
+            
+            users.users.axiom = {
+              isNormalUser = true;
+              extraGroups = [ "wheel" "networkmanager" ];
+              initialPassword = "password";
+            };
+            
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.users.axiom = import ./os/profiles/home.nix;
+            
+            services.getty.autologinUser = "axiom";
+            virtualisation.vmVariant = {
+              virtualisation.memorySize = 4096;
+              virtualisation.cores = 4;
+              virtualisation.resolution = { x = 1920; y = 1080; };
+            };
           }
         ];
       };

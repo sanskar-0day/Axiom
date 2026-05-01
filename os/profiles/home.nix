@@ -1,8 +1,8 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 
 {
-  home.username = builtins.getEnv "USER";
-  home.homeDirectory = builtins.getEnv "HOME";
+  home.username = lib.mkDefault (let u = builtins.getEnv "USER"; in if u == "" then "axiom" else u);
+  home.homeDirectory = lib.mkDefault (let h = builtins.getEnv "HOME"; in if h == "" then "/home/axiom" else h);
 
   home.stateVersion = "23.11"; # Please read the release notes before changing.
 
