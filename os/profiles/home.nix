@@ -23,7 +23,7 @@
     wlogout
     zellij
     zathura
-    mpv
+    mpv-unwrapped
     cava
     pavucontrol
     networkmanagerapplet
