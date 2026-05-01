@@ -49,7 +49,7 @@ in
       jetbrains-mono
       noto-fonts
       noto-fonts-cjk-sans
-      noto-fonts-emoji
+      noto-fonts-color-emoji
       lohit-fonts.devanagari
       lohit-fonts.tamil
       lohit-fonts.bengali
